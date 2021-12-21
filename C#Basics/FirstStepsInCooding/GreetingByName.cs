@@ -1,4 +1,4 @@
-namespace greetings
+namespace Greetings
 {
     using System;
     
@@ -8,11 +8,11 @@ namespace greetings
         {
             string name = Console.ReadLine();
             
-            Console.WriteLine($"Hello, {name}!");
-            
             // Console.Write("Hello, ");
             // Console.Write(name);
             // Console.WriteLine("!");
+            
+            Console.WriteLine($"Hello, {name}!");
         }
     }
 }
