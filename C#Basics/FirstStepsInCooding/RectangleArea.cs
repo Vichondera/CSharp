@@ -11,6 +11,7 @@ namespace RectangleArea
 
             // int area = sideA * sideB;
             Console.WriteLine(sideA * sideB);
+            
             // Console.WriteLine(area);
         }
     }
