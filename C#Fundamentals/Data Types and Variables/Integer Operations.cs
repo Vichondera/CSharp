@@ -1,25 +1,19 @@
-namespace _06
+namespace IntegerOperations
 {
     using System;
-    using System.Linq;
-    
+
     class Program
     {
         static void Main(string[] args)
         {
-            // Input
-            var firstNumber = int.Parse(Console.ReadLine());
-            var secondNumber = int.Parse(Console.ReadLine());
-            var thirdNumber = int.Parse(Console.ReadLine());
-            var fourhNumber = int.Parse(Console.ReadLine());
+            var firstInt = int.Parse(Console.ReadLine());
+            var secondInt = int.Parse(Console.ReadLine());
+            var thrdInt = int.Parse(Console.ReadLine());
+            var fourthInt = int.Parse(Console.ReadLine());
 
-            // AntiLogic
-            var firstCheck = firstNumber + secondNumber; //first + second==>
-            var secondCheck = firstCheck / thirdNumber; //=> devide [third num]==>
-            var thirdCheck = secondCheck * fourhNumber; //=> x [fourth num]
+            var result = ((firstInt + secondInt) / thrdInt) * fourthInt;
 
-            // Output
-            Console.WriteLine(thirdCheck);
+            Console.WriteLine(result);
         }
     }
 }
