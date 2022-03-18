@@ -1,8 +1,8 @@
-using System;
-using System.Text;
-
-namespace _01_World_Tour
+namespace WorldTour
 {
+    using System;
+    using System.Text;
+    
     class Program
     {
         static void Main(string[] args)
