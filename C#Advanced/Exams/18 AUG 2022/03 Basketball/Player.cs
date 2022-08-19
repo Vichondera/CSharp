@@ -1,8 +1,8 @@
-using System;
-using System.Text;
-
-namespace Basketball
+amespace Basketball
 {
+	using System;
+	using System.Text;
+	
     public class Player
     {
         public Player (string name,string position,double rating,int games)
@@ -11,14 +11,13 @@ namespace Basketball
             this.Position = position;
             this.Rating = rating;
             this.Games = games;
-            this.Retired = false;
 	}
 
-        public string Name { get; set; }
-        public string Position { get; set; }
-        public double Rating { get; set; }
-        public int Games { get; set; }
-        public bool Retired { get; set; }
+        public string Name { get; private set; }
+        public string Position { get; private set; }
+        public double Rating { get; private set; }
+        public int Games { get; private set; }
+        public bool Retired { get; set; } = false;
 
         public override string ToString()
         {
