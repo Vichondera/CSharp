@@ -3,6 +3,7 @@ namespace BookingApp.Core
     using System;
     using System.Linq;
     using System.Text;
+    
     using BookingApp.Core.Contracts;
     using BookingApp.Models.Bookings.Contracts;
     using BookingApp.Models.Hotels;
